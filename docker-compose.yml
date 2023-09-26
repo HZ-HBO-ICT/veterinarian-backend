@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  appointments:
+    container_name: msappointments
+    build: ./appointments
+    volumes:
+      - ./appointments/code:/usr/src/app
+    networks:
+      - msveterinarian
+    ports:
+      - "3010:3010"
+    working_dir: /usr/src/app
+    command: bash -c "npm install && npm run dev"
+
+networks:
+  msveterinarian:
+    driver: bridge
