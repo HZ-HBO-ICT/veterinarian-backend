@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "name": "clients",
+    "date": "october 2023"
+  },
+  "data": [
+    {
+      "id": 1,
+      "name": "Sissy",
+      "breed": "🐈"
+    },
+    {
+      "id": 2,
+      "name": "Suzy",
+      "breed": "🐕"
+    },
+    {
+      "id": 3,
+      "name": "Henk",
+      "breed": "🦜"
+    },
+    {
+      "id": 4,
+      "name": "Greet",
+      "breed": "🐢"
+    },
+    {
+      "id": 5,
+      "name": "Victor",
+      "breed": "🐈"
+    },
+    {
+      "id": 6,
+      "name": "Mr Jansen",
+      "breed": "🐕"
+    },
+    {
+      "id": 7,
+      "name": "Patty",
+      "breed": "🐕"
+    },
+    {
+      "id": 8,
+      "name": "Joris",
+      "breed": "🐍"
+    },
+
+    {
+      "id": 9,
+      "name": "Joep",
+      "breed": "🐇"
+    },
+
+    {
+      "id": 10,
+      "name": "Gait",
+      "breed": "🐐"
+    },
+    {
+      "id": 11,
+      "name": "Choco",
+      "breed": "🐇"
+    }
+  ]
+}
