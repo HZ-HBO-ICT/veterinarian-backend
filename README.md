@@ -19,7 +19,6 @@ You can change the ports of your server via `variables.env`
 - Apgateway: microservice for the API Gateway - running on port:3011
 - Clients: microservice for the Clients resource - running on port:3012
 
-
 ## Containers
 
 Check the readme files of each container to understand the setup
