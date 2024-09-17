@@ -16,7 +16,7 @@ We save credentials to other services in a `variables.env` file. This file is in
 You can change the ports of your server via `variables.env`
 
 - Appoinments: microservice for the Appointments resource - running on port:3010
-- Apgateway: microservice for the API Gateway - running on port:3011
+- Apigateway: microservice for the API Gateway - running on port:3011
 - Clients: microservice for the Clients resource - running on port:3012
 
 ## Containers
