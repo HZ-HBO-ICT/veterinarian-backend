@@ -1,4 +1,4 @@
-import data from './clients.json' assert { type: 'json' };
+import data from './clients.json' with { type: 'json' };
 
 export async function getAllClients(req, res) {
   try {
