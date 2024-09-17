@@ -1,4 +1,4 @@
-import data from './appointments.json' with { type: 'json' };
+import data from './appointments.json' assert { type: 'json' };
 
 function getToDay() {
   const date = new Date();
