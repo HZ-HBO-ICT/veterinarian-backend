@@ -1,4 +1,12 @@
-import data from './appointments.json' with { type: 'json' };
+//import data from './appointments.json' with { type: 'json' };
+
+//the above will give you a warning
+import { readFile } from 'fs/promises';
+const data = JSON.parse(
+  await readFile(
+    new URL('./appointments.json', import.meta.url)
+  )
+);
 
 function getToDay() {
   const date = new Date();
